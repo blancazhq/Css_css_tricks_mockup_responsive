@@ -1,0 +1,284 @@
+
+
+body{
+  background-color: #DEDEDE;
+  margin-top:0;
+  margin-bottom: :0;
+}
+
+header{
+  overflow: hidden;
+  background-color: white;
+}
+
+.menu_logo{
+  width: 60px;
+  float: left;
+  padding: 15px;
+}
+
+@media (max-width: 397px) {
+    .menu_logo {
+        width: 30px;
+    }
+}
+
+.main_logo{
+  position: relative;
+  top: -2px;
+  width: 280px;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+@media (max-width: 397px) {
+    .main_logo {
+        width: 150px;
+    }
+}
+
+.search_bar_div {
+  float:right;
+}
+
+@media (max-width: 601px) {
+    .search_bar_div {
+        display:none;
+    }
+}
+
+.search_logo{
+  width: 70px;
+  float: left;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+
+
+.search_input{
+  width:50%;
+  height: 31px;
+  float: left;
+  padding-right: 3px;
+  margin-top: 15px;
+  border: 1px solid lightgrey;
+}
+
+.content_div{
+  float:left;
+  width: 73%;
+  border: 15px solid #444444;
+  border-top: 23px solid #444444;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+@media (max-width: 601px) {
+    .content_div {
+        width: 95%;
+        float: none;
+    }
+}
+
+.orange_line_parent_div{
+  position:relative;
+}
+
+.orange_line{
+  position: absolute;
+  width:100%;
+  height:8px;
+  background-color:orange;
+  opacity: 0.5;
+}
+
+.content_title_text_div{
+  width: 80%;
+  float:left;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  float: left;
+  padding-left: 65px;
+  padding-top: 3%;
+}
+
+@media (max-width: 511px) {
+    h1 {
+        font-size: 25px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+}
+
+.link_pic{
+  width: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  float: right;
+}
+
+@media (max-width: 1005px) {
+    .link_pic {
+        width: 30px;
+    }
+}
+
+@media (max-width: 427px) {
+    .link_pic {
+        padding-right: 10px;
+    }
+}
+
+.clearfix{
+  clear:left;
+}
+
+.acknowledgement_div{
+  background-color: #F1F1F1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 65px;
+}
+
+@media (max-width: 511px) {
+    .acknowledgement_div {
+        padding-left: 40px;
+    }
+}
+
+
+
+
+.blue_text{
+  color:#00A4FB;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1.58px;
+}
+
+.grey_text{
+  color:#999696;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1.58px;
+}
+
+@media (max-width: 511px) {
+    .blue_text, .grey_text{
+        font-size: 10px;
+    }
+}
+
+.content_text_div p{
+  font-family: "Century Gothic";
+  font-size: 17px;
+  padding-right: 65px;
+}
+
+@media (max-width: 511px) {
+    .content_text_div p {
+        font-size: 13px;
+        padding-left: 40px;
+    }
+}
+
+.content_text{
+  padding-left: 65px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote{
+  padding-left: 80px;
+  margin:0px;
+}
+
+.blockquote_pic{
+  padding-left: 80px;
+  position:relative;
+  left: -4px;
+}
+
+@media (max-width: 511px) {
+    .blockquote_pic {
+        padding-left: 45px;
+    }
+}
+
+.right_column{
+  float:left;
+  width: 23%;
+  background-color: #EEEEEE;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+
+@media (max-width: 601px) {
+    .right_column {
+        width: 100%;
+        float: none;
+    }
+}
+
+.get_hired_pic{
+  width: 80%;
+  margin-left: 33px;
+}
+
+.custom_web_forms_div{
+  width: 80%;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  background-color: white;
+  margin-left:33px;
+}
+
+.custom_web_forms_pic{
+  width: 70%;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.custom_web_forms_div p{
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.custom_web_forms_input{
+  width: 70%;
+  color: #908781;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.sign_up_button{
+  display:block;
+  position:relative;
+  text-align: center;
+  padding: 10px 35px;
+  margin-top:40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #72ACF4;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
