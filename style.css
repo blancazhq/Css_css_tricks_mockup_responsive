@@ -75,9 +75,9 @@ header{
   background-color: white;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 804px) {
     .content_div {
-        width: 95%;
+        width: 100%;
         float: none;
     }
 }
@@ -157,9 +157,6 @@ h1{
     }
 }
 
-
-
-
 .blue_text{
   color:#00A4FB;
   font-family: Arial;
@@ -220,13 +217,13 @@ h1{
 
 .right_column{
   float:left;
-  width: 23%;
+  width: 27%;
   background-color: #EEEEEE;
   padding-bottom: 40px;
   padding-top: 25px;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 804px) {
     .right_column {
         width: 100%;
         float: none;
@@ -235,7 +232,8 @@ h1{
 
 .get_hired_pic{
   width: 80%;
-  margin-left: 33px;
+  padding-left: 10%;
+  padding-left: 10%;
 }
 
 .custom_web_forms_div{
@@ -243,7 +241,8 @@ h1{
   padding-bottom: 15px;
   margin-top: 20px;
   background-color: white;
-  margin-left:33px;
+  margin-left:10%;
+  margin-right: 10%
 }
 
 .custom_web_forms_pic{
